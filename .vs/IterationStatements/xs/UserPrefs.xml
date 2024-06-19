@@ -2,17 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.IterationStatements PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="IterationStatements/Program.cs">
     <Files>
-      <File FileName="IterationStatements/Program.cs" Line="1" Column="1" />
+      <File FileName="IterationStatements/Program.cs" Line="137" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="IterationStatements">
-            <Node name="IterationStatements" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

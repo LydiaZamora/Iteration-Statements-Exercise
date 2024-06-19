@@ -14,15 +14,16 @@
 
             // 4. EvenOrOdd(9);
 
-            // 5.IsPositive(45);
+            // 5.IsPositive(45);(HELP)
 
             // 6. Console.WriteLine("Hello, how old are you?");
             // string userResponse = Console.ReadLine();
             // int age = int.Parse(userResponse);
             // OfVotingAge(age); QUESTIONS
 
-            // 7. NumberRange(-3);
+            // 7. NumberRange(-3); 
 
+            // 8. MultiplyTable(12); HELP 
 
         }
 
@@ -132,9 +133,28 @@
         //Write a method to display the
         //multiplication table(from 1 to 12) of a given integer
 
-        public static void MultiplyTableRange()
+        public static void MultiplyTable(int size)
         {
+            Console.WriteLine("  ");
+            for(int i = 1; i <= size; i++)
+            {
+                Console.WriteLine("{0, 4}", i);
 
+            }
+            Console.WriteLine("\n");
+
+            for(int i = 1; i <=size; i++)
+            {
+                Console.WriteLine("{0, 2} |", i);
+
+                for(int j = 1; j<= size; j++)
+                {
+                    Console.WriteLine("{0, 4}", i * j);
+                }
+
+                Console.WriteLine();
+
+            }
         }
 
 
