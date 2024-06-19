@@ -23,7 +23,7 @@
 
             // 7. NumberRange(-3); 
 
-            //MultiplyTable(); 
+            // 8. MultiplyTable(); 
 
         }
 
