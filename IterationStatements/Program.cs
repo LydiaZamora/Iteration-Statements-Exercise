@@ -14,16 +14,16 @@
 
             // 4. EvenOrOdd(9);
 
-            // 5.IsPositive(45);(HELP)
+            // 5. IsPositive(-45);
 
-            // 6. Console.WriteLine("Hello, how old are you?");
-            // string userResponse = Console.ReadLine();
-            // int age = int.Parse(userResponse);
-            // OfVotingAge(age); QUESTIONS
+            // 6.  Console.WriteLine("Hello, how old are you?");
+             //string userResponse = Console.ReadLine();
+             //int age = int.Parse(userResponse);
+             //OfVotingAge(age); 
 
             // 7. NumberRange(-3); 
 
-            // 8. MultiplyTable(12); HELP 
+            //MultiplyTable(); 
 
         }
 
@@ -90,9 +90,11 @@
         {
             if (num1 > 0)
             {
+                Console.WriteLine("Positive");
                 return true;
             }
 
+            Console.WriteLine("negative");
             return false;
         }
 
@@ -109,7 +111,7 @@
 
             else
             {
-                Console.WriteLine("You're too young, sorry.");
+                Console.WriteLine("You're too young to vote, try again next time.");
             }
             
         }
@@ -133,28 +135,20 @@
         //Write a method to display the
         //multiplication table(from 1 to 12) of a given integer
 
-        public static void MultiplyTable(int size)
+        public static void MultiplyTable()
         {
-            Console.WriteLine("  ");
-            for(int i = 1; i <= size; i++)
+            Console.WriteLine(" Choose a number ");
+            var userAnswer = int.Parse(Console.ReadLine());
+            for(int i = 1; i <= 12; i++)
             {
-                Console.WriteLine("{0, 4}", i);
+                var answer = i * userAnswer;
+
+                Console.WriteLine(answer);
 
             }
-            Console.WriteLine("\n");
+            
 
-            for(int i = 1; i <=size; i++)
-            {
-                Console.WriteLine("{0, 2} |", i);
-
-                for(int j = 1; j<= size; j++)
-                {
-                    Console.WriteLine("{0, 4}", i * j);
-                }
-
-                Console.WriteLine();
-
-            }
+            
         }
 
 
