@@ -21,7 +21,7 @@
              //int age = int.Parse(userResponse);
              //OfVotingAge(age); 
 
-            // 7. NumberRange(-3); 
+            // 7. NumberRange(); 
 
             // 8. MultiplyTable(); 
 
@@ -84,7 +84,7 @@
 
 
         // 5. Write a method to check whether a given number is
-        //positive or negative. NEED HELP
+        //positive or negative. 
 
         public static bool IsPositive(int num1)
         {
@@ -119,9 +119,12 @@
         //Write a method to check if an integer(from the user)
         //is in the range -10 to 10
 
-        public static void NumberRange(int numberOne)
+        public static void NumberRange()
         {
-            if(numberOne >= -10 && numberOne <= 10)
+            Console.WriteLine("Guess a number in the mystery range");
+            var answer = int.Parse(Console.ReadLine());
+
+            if(answer >= -10 && answer <= 10)
             {
                 Console.WriteLine("You are in range");
             }
